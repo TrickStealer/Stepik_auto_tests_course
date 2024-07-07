@@ -97,6 +97,7 @@ Firefox и другие браузеры не поддерживают неко�
 - [ ] [Wikipedia - Single-page application](https://en.wikipedia.org/wiki/Single-page_application)
 
 **Шаг 7. Explicit Waits (WebDriverWait и expected_conditions)**
+
 В модуле expected_conditions есть много других правил, которые позволяют реализовать необходимые ожидания:
 - [ ] [Selenium-python readthedocs - 7.34. Expected conditions Support](https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.support.expected_conditions)
 
@@ -120,5 +121,69 @@ Firefox и другие браузеры не поддерживают неко�
 - [ ] [cloudbees - How to Get Selenium to Wait for Page Load After a Click](https://blog.codeship.com/get-selenium-to-wait-for-page-load/)
 - [ ] [barancev.github - что делать в Selenium, если страница загружается слишком долго?](http://barancev.github.io/slow-loading-pages/)
 - [ ] [barancev.github - что означает "окончание загрузки страницы"?](http://barancev.github.io/page-loading-complete/)
+
+
+## 3 Тестовые фреймворки
+
+### [3.1 Лирическое отступление про Git](https://stepik.org/lesson/187065/step/1?unit=161976)
+
+**Шаг 12. Полезные ссылки**
+
+- [ ] [отличный интерактивный туториал](https://learngitbranching.js.org/)
+- [ ] [лучшая книга вообще ](https://git-scm.com/book/ru/v2/)
+- [ ] [hyperskill.org - Starting with GitHub](https://hyperskill.org/learn/topic/257/)
+- [ ] [Курс "GIT" на Stepik](https://stepik.org/course/4138/)
+- [ ] [Курс "Основы Git" на Stepik](https://stepik.org/course/3145/)
+- [ ] [cs-students.stanford.edu - Волшебство Git](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/ru/index.html)
+- [ ] [Хабр - Git снизу вверх](https://habr.com/company/intel/blog/344962/)
+- [ ] [Git How To — это интерактивный тур, который познакомит вас с основами Git](https://githowto.com/ru)
+
+- [ ] Настоятельно советуем самостоятельно прочитать про ветки (бранчи) и пулл-реквесты — это основной инструмент коллективной работы в Git.
+
+
+### [3.2 Тестирование web-приложений и тестовые фреймворки](https://stepik.org/lesson/36285/step/1?unit=162401)
+
+В качестве основы для данного урока мы адаптировали руководство про написание юнит-тестов в Python:
+- [ ] [Getting Started With Testing in Python](https://realpython.com/python-testing/)
+
+**Шаг 3. Юнит-тесты и интеграционные тесты**
+- [ ] [Хабр - Пирамида тестов на практике](https://habr.com/ru/articles/358950/)
+
+**Шаг 7. Составные сообщения об ошибках**
+- [ ] [Python String Formatting: Available Tools and Their Features](https://realpython.com/python-string-formatting/#2-new-style-string-formatting-strformat)
+- [ ] [f-strings](https://realpython.com/python-string-formatting/#3-string-interpolation-f-strings-python-36)
+
+**Шаг 10. Тестовые сценарии**
+- [ ] [Видео  Олега Молчанова - Уроки Python casts #4 - if __name __ == '__main__': что это значит](https://www.youtube.com/watch?v=cW_-zGG4ef4)
+
+**Шаг 12. unittest**
+- [ ] [unittest — Unit testing framework](https://docs.python.org/3/library/unittest.html)
+
+
+### [3.3 Тестирование с помощью PyTest](https://stepik.org/lesson/193188/step/1?unit=167629)
+
+**Шаг 1. PyTest — преимущества и недостатки**
+
+Для написания данного урока мы вдохновлялись статьёй на Хабре, адаптировав ее к специфике тестирования веб-приложений с помощью Selenium WebDriver:
+- [ ] [Хабр - PyTest](https://habr.com/ru/articles/269759/)
+
+**Шаг 5. PyTest: правила запуска тестов**
+- [ ] [Conventions for Python test discovery](https://docs.pytest.org/en/stable/explanation/goodpractices.html#conventions-for-python-test-discovery)
+
+**Шаг 7. PyTest — отчёты**
+
+Другие полезные команды для манипуляции выводом тестов PyTest можно найти по ссылке:
+- [ ] [github - Useful py.test commands.](https://gist.github.com/amatellanes/12136508b816469678c2)
+
+**Шаг 9. PyTest — проверка ожидаемого результата (assert)**
+Большой набор assert-методов, например, таких: assertEqual, assertNotEqual, assertTrue, assertFalse и другие:
+- [ ] [unittest — assert-methods](https://docs.python.org/3/library/unittest.html#assert-methods)
+
+
+
+
+
+
+
 
 
