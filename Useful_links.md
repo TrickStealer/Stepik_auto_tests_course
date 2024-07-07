@@ -1,4 +1,5 @@
 # Полезные ссылки с курса
+В чекбоксах я отмечаю те материалы, которые изучил
 
 ## 1 Знакомимся с Selenium
 
@@ -16,11 +17,13 @@ WebDriver признали стандартом протокола взаимо�
 - [ ] [Что такое Selenium?](https://habr.com/ru/articles/152653/)
 - [ ] [Что такое Selenium WebDriver?](https://habr.com/ru/articles/152971/)
 
+
 ### [1.2 Запускаем браузер с помощью Selenium WebDriver](https://stepik.org/lesson/25969/step/1?unit=196192)
 
 **Шаг 7. Установка драйвера для браузера**
 - [ ] [Статистика по использованию браузеров](https://gs.statcounter.com/browser-market-share/desktop/worldwide/)
 - [ ] [WebDriver для Chrome](https://sites.google.com/chromium.org/driver/downloads)
+
 
 ### [1.3 Структура веб-страницы](https://stepik.org/lesson/225516/step/1?unit=198252)
 
@@ -28,6 +31,7 @@ WebDriver признали стандартом протокола взаимо�
 
 Курс для более детального изучения HTML и CSS:
 - [ ] [Веб-разработка для начинающих: HTML и CSS](https://stepik.org/course/38218/promo)
+
 
 ### [1.4 Поиск элементов](https://stepik.org/lesson/102555/step/1?unit=196193)
 
@@ -56,6 +60,7 @@ Firefox и другие браузеры не поддерживают неко�
 Игра для практики в CSS:
 - [ ] [CSS Diner ](https://flukeout.github.io/)
 
+
 ### [1.6 Поиск элементов с помощью Selenium WebDriver](https://stepik.org/lesson/138920/step/3?unit=196194)
 
 **Шаг 3. Работа с браузером в Selenium**
@@ -64,3 +69,56 @@ Firefox и другие браузеры не поддерживают неко�
 
 Поиск по тексту ссылки:
 - [ ] [Selenium python readthedocs - 4.4. Locating Hyperlinks by Link Text](https://selenium-python.readthedocs.io/locating-elements.html#locating-hyperlinks-by-link-text)
+
+
+
+## 2 Полезные методы Selenium
+
+### [2.1 Основные методы Selenium](https://stepik.org/lesson/165493/step/1?unit=140087)
+
+**Шаг 6. Метод get_attribute**
+
+Атрибуты могут быть стандартными свойствами, которые понимает и использует браузер для отображения и вёрстки элементов или для хранения служебной информации, например, name, width, height, color и многие другие:
+- [ ] [w3schools - HTML Attribute Reference](https://www.w3schools.com/tags/ref_attributes.asp)
+
+
+### [2.2 Работа с файлами, списками и js-скриптами](https://stepik.org/lesson/228249/step/1?unit=200781)
+
+**Шаг 5. Пример задачи для execute_script**
+- [ ] [developer.mozilla.org - метод Element.scrollIntoView()](https://developer.mozilla.org/ru/docs/Web/API/Element/scrollIntoView)
+
+**Шаг 7. Загрузка файлов**
+- [ ] [docs.python.org - os.path](https://docs.python.org/3/library/os.path.html)
+
+
+### [2.4 Настройка ожиданий](https://stepik.org/lesson/181384/step/1?unit=156009)
+
+**Шаг 2. Немного про современный веб**
+- [ ] [Wikipedia - Single-page application](https://en.wikipedia.org/wiki/Single-page_application)
+
+**Шаг 7. Explicit Waits (WebDriverWait и expected_conditions)**
+В модуле expected_conditions есть много других правил, которые позволяют реализовать необходимые ожидания:
+- [ ] [Selenium-python readthedocs - 7.34. Expected conditions Support](https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.support.expected_conditions)
+
+
+### [2.6 Полезные ссылки к первому и второму модулям](https://stepik.org/lesson/171979/step/1?unit=146657)
+
+В этом уроке мы постарались собрать ссылки на ресурсы, где вы сможете найти дополнительную информацию по использованию Selenium и о тонкостях при работе с ним:
+
+**Общее**
+
+- [ ] [Начало работы с ChromeDriver](http://chromedriver.chromium.org/getting-started)
+- [ ] [Туториал на английском, ориентирован на Java](https://www.guru99.com/selenium-tutorial.html)
+- [ ] [Можно попробовать писать автотесты для демо-сайта ﻿банка. Тоже Java](https://www.guru99.com/live-selenium-project.html)
+- [ ] [Что такое хорошие селекторы](http://barancev.github.io/good-locators/)
+- [ ] [Что за PATH переменная](http://barancev.github.io/what-is-path-env-var/)
+
+**Ожидания в Selenium WebDriver**
+
+- [ ] [selenium.dev - Waiting Strategies](https://www.selenium.dev/documentation/webdriver/waits/)
+- [ ] [stackoverflow - Selenium wait until document is ready](https://stackoverflow.com/questions/15122864/selenium-wait-until-document-is-ready)
+- [ ] [cloudbees - How to Get Selenium to Wait for Page Load After a Click](https://blog.codeship.com/get-selenium-to-wait-for-page-load/)
+- [ ] [barancev.github - что делать в Selenium, если страница загружается слишком долго?](http://barancev.github.io/slow-loading-pages/)
+- [ ] [barancev.github - что означает "окончание загрузки страницы"?](http://barancev.github.io/page-loading-complete/)
+
+
