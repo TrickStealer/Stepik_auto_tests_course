@@ -8,6 +8,7 @@
 - [ ] [Github страница проекта Selenium](https://github.com/SeleniumHQ/selenium)
 
 **Шаг 9. Что такое Selenium WebDriver?**
+
 WebDriver признали стандартом протокола взаимодействия с браузером:
 - [ ] [W3C Recommendation 05 June 2018](https://www.w3.org/TR/webdriver1/)
 
@@ -24,18 +25,21 @@ WebDriver признали стандартом протокола взаимо�
 ### [1.3 Структура веб-страницы](https://stepik.org/lesson/225516/step/1?unit=198252)
 
 **Шаг 6 -Подробнее об атрибутах (data-атрибуты)**
+
 Курс для более детального изучения HTML и CSS:
 - [ ] [Веб-разработка для начинающих: HTML и CSS](https://stepik.org/course/38218/promo)
 
 ### [1.4 Поиск элементов](https://stepik.org/lesson/102555/step/1?unit=196193)
 
 **Шаг 4. Поиск элементов с помощью составных CSS-селекторов**
+
 Чтобы разобраться подробнее в css-селекторах:
 - [ ] [CSS для JavaScript-разработчика - Знаете ли вы селекторы?](https://learn.javascript.ru/css-selectors)
 - [ ] [w3schools - CSS Selector Reference](https://www.w3schools.com/cssref/css_selectors.php)
 - [ ] [developer.mozilla.org - CSS-селекторы](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_selectors)
 
 **Шаг10. Поиск элементов с помощью XPath**
+
 Чтобы познакомиться с XPath подробнее:
 - [ ] [w3schools - XPath syntax](https://www.w3schools.com/xml/xpath_syntax.asp)
 - [ ] [Learn microsoft - Примеры XPath](https://msdn.microsoft.com/ru-ru/library/ms256086(v=vs.120).aspx)
