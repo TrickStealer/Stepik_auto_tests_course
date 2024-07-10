@@ -179,11 +179,31 @@ Firefox и другие браузеры не поддерживают неко�
 Большой набор assert-методов, например, таких: assertEqual, assertNotEqual, assertTrue, assertFalse и другие:
 - [ ] [unittest — assert-methods](https://docs.python.org/3/library/unittest.html#assert-methods)
 
+### [3.4 Использование фикстур в PyTest](https://stepik.org/lesson/237257/step/1)
 
+**Шаг 2. Классические фикстуры (fixtures)**
+- [ ] [Wiki — Test fixture](https://en.wikipedia.org/wiki/Test_fixture#Software)
+- [ ] [docs.pytest.org — How to implement xunit-style set-up](https://docs.pytest.org/en/latest/how-to/xunit_setup.html)
 
+**Шаг 4. Финализаторы — закрываем браузер**
 
+Есть альтернативный способ вызова teardown кода с помощью встроенной фикстуры request и ее метода addfinalizer:
+- [ ] [docs.pytest.org — Adding finalizers directly](https://docs.pytest.org/en/latest/how-to/fixtures.html#adding-finalizers-directly)
 
+**Шаг 6. Автоиспользование фикстур**
 
+Дополнительные материалы про фикстуры, которые мы настоятельно советуем почитать, приведены ниже:
+- [ ] [Хабр - Как в Яндексе используют PyTest и другие фреймворки для функционального тестирования](https://habr.com/ru/company/yandex/blog/242795/)
+- [ ] [docs.pytest.org — About fixtures](https://docs.pytest.org/en/stable/fixture.html)
 
+### [3.5 PyTest — маркировка](https://stepik.org/lesson/236918/step/1?unit=209305)
+
+**Шаг 5. XFail: помечать тест как ожидаемо падающий**
+- [ ] [pytest.org — How to use skip and xfail to deal with tests that cannot succeed](https://pytest.org/en/stable/how-to/skipping.html)
+
+**Шаг 6. Задание: пропуск тестов**
+
+Изучите самостоятельно документацию про маркировку:
+- [ ] [docs.pytest.org — pytest.mark.xfail](https://docs.pytest.org/en/latest/reference/reference.html#pytest.mark.xfail)
 
 
